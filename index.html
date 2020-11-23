@@ -6,8 +6,46 @@
     <title>Site Musée</title>
    <h1>Musée Flaubert et de la Médecine</h1> 
     
-    <link rel="stylesheet" href="/flaubert.css">
+    <link rel="stylesheet" href="flaubert.css">
     
+  <style>
+   body{display:flex;
+        flex-direction: column;
+        min-height: 100vh;}
+        main{
+            display: flex;
+            flex-grow:1;
+            flex-shrink: 1;
+            flex-basis: auto;
+            background-color:sandybrown;
+        }
+        header, footer{text-align: center;}
+        aside{
+            width: 50em;
+            padding: 10px;
+        }
+        nav{
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0%;
+        }
+        nav a{text-decoration: none;
+        color: peachpuff;}
+        article{dint-size:5vh;
+        padding: 10px;}
+        
+         @media (max-width:640px){
+             main{ flex-direction: column;}
+             aside, nav{
+                 width:auto;
+             }
+        nav{
+            order:-1;
+        }
+    </style>
 
 </head>
 <body>
@@ -27,17 +65,17 @@ Dernière entrée toujours 30 minutes avant la fermeture.
     </article>
 <p>
 
-Tarifs
+Tarifs <div>
 
-Tarif plein : 4 €
+Tarif plein : 4 € <div>
 
-Tarif réduit : 2 €
+Tarif réduit : 2 € <div>
 
-Gratuit pour les moins de 18 ans, les amis du musée et le personnel du CHU.
+Gratuit pour les moins de 18 ans, les amis du musée et le personnel du CHU. <div>
 
-Visites commentée pour scolaires et adultes sur réservation auprès du musée.
+Visites commentée pour scolaires et adultes sur réservation auprès du musée. <div>
 
-Audioguides bilingues français-anglais à 4 €.
+Audioguides bilingues français-anglais à 4 €. <div>
 </p>
 </main>
 <footer>
@@ -49,7 +87,7 @@ Accès Transports
 </footer>
     <nav> 
         <ul>
-            <li><a href="#flaubert.css">Lien</a></li>
+            <li><a href="flaubert.css">Lien</a></li>
             <li><a href="presentation.html">Lien</a></li>
             <li><a href="Imagepartie1.html">Lien</a></li>
             <li><a href="Imagepartie2.html">Lien</a></li>
